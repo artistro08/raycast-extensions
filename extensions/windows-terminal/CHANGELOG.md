@@ -2,7 +2,7 @@
 
 ## [Quake Window Preference] - 2026-05-22
 
-- Added the `Open profiles in quake window` preference. When enabled, the primary "Open Profile" action and the "Open as Administrator" action both route into Windows Terminal's quake (drop-down) window via `wt.exe -w _quake`.
+- Added the `Open profiles in quake window` preference. When enabled, the primary "Open Profile" action and the "Open as Administrator" action both route into Windows Terminal's quake (drop-down) window via `wt.exe -w _quake`. An additional "Open as Administrator (Non-Quake)" action (⌃↵) is exposed while the preference is on, so users can still open an elevated session in a normal window — elevated quake windows don't respond to the global quake shortcut (Win+`).
 
 ## [Quality of Life Enhancements and Fixes] - 2026-01-14
 
